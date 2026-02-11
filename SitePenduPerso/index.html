@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu du Pendu - Victor Hugo Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="conteneur">
+        <header>
+            <h1>Le Pendu</h1>
+            <p>Devinez un mot tiré de l'œuvre <i>Les Misérables</i></p>
+        </header>
+
+        <div id="zone_jeu">
+            <div id="affichage_pendu">
+                <img src="img/pendu0.png" id="image_pendu" alt="Pendu">
+            </div>
+            
+            <div id="mot_a_deviner">
+                Chargement...
+            </div>
+            
+            <div id="clavier">
+                </div>
+            
+            <div id="messages"></div>
+            
+            <button id="btn_rejouer" style="display:none;">Rejouer</button>
+        </div>
+
+        <footer>
+            <p>Projet Personnel - Jeu développé en JavaScript</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
